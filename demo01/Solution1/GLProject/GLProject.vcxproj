@@ -148,12 +148,16 @@
     <ClInclude Include="GLApplication.h" />
     <ClInclude Include="GLWindow.h" />
     <ClInclude Include="Keys.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="UserExample.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="GLApplication.cpp" />
     <ClCompile Include="GLWindow.cpp" />
     <ClCompile Include="Keys.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="UserExample.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

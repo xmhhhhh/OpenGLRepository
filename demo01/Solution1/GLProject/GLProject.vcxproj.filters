@@ -27,6 +27,12 @@
     <ClInclude Include="Example.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="UserExample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GLWindow.cpp">
@@ -39,6 +45,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Example.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserExample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -10,11 +10,11 @@ Example::Example(const char* class_name):GLApplication(class_name)
 
 
 
-GLApplication* GLApplication::Create(const char* class_name)
-{
-	Example* example = new Example(class_name);
-	return reinterpret_cast<GLApplication*>(example);
-}
+//GLApplication* GLApplication::Create(const char* class_name)
+//{
+//	Example* example = new Example(class_name);
+//	return reinterpret_cast<GLApplication*>(example);
+//}
 
 bool Example::Init()
 {
